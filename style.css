@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alphabet_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.letter{
+    width: 10%;
+    background-color: rgb(9, 45, 63);
+    font-size: 40px;
+    padding: 5px;
+    color: aliceblue;
+    margin: 2px ;
+    display: flex;
+    justify-content: center;
+}
+
+.letter:hover{
+    background-color: rgb(16, 68, 94);
+    color:rgb(153, 149, 255);
+    cursor: pointer;
+}
+.word_container{
+    margin-bottom: 20px;
+}
+.word_letter{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.hang_img{
+    max-width: 400px;
+}
+
+body{
+    background-color: rgb(29, 29, 81);
+}
+
+.errors{
+    color: aliceblue;
+}
+
+
+.pressed{
+    opacity: .5;
+    pointer-events: none;
+    text-decoration: line-through;
+}
